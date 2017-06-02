@@ -1,0 +1,15 @@
+/*$fontSize:12px;
+div {
+    font-size: $fontSize;
+}
+
+div {
+    font-size: $fontSize;
+}
+p {
+    font-size: $fontSize;
+    color:red;
+} */
+#banner img {
+  height: 500px;
+  width: 100%; }

@@ -1,0 +1,42 @@
+.margin{margin:0 auto;}
+header{height: 82px;}
+header .logo{float: left; margin:17px 0 0 55px;}
+header ul{width: 504px; margin-left: 180px;}
+header ul li{float:left; padding:0 32px; text-align: center;}
+header ul li a{font:12px/80px ""; color:#7e7e7e; }
+header ul li:hover{border-bottom: 2px solid #ed0a2b;}
+header .search{float:right; width:300px;}
+header .search a {display: block; }
+
+
+main .main-t{height:300px;display: flex; justify-content: space-between;}
+main .main-t ul{display: flex;}
+main .main-t ul  li a{display: block;overflow: hidden;}
+main .main-t ul  li a img:hover{transform: scale(1.6,1.6);}
+main .main-c{height:500px;}
+main .main-b{background:#f6f6f6; padding-top: 2px; height:528px;}
+main .main-b ul{padding: 74px 32px; height:376px;display: flex;justify-content: space-between; }
+main .main-b ul li:hover{transform: translate3d(0,-6px,-10px);box-shadow:0,3px ;}
+main .main-b .title{height:136px; background: #fff;}
+main .main-b .title h3{padding:26px 0 0 28px; font:18px/30px "";}
+main .main-b .title p{padding:0 0 54px 28px; font:12px/26px "";}
+nav{position: relative;}
+nav .nav-t{height:183px; border-bottom: 1px solid  #f1f1f1;}
+nav .nav-t ul{display:flex ; justify-content: space-between; padding: 36px 138px 8px 53px;}
+nav .nav-b{height:290px; display: flex; justify-content: space-between;}
+nav .nav-b ul{margin:60px 0 0 30px;}
+nav .nav-b ul{width:592px;}
+nav .nav-b ul li{float:left;}
+nav .nav-b  ul li.te{margin : 0 79px;}
+nav .nav-b  ul li h3{font:18px/60px "";#333333;}
+nav .nav-b  ul li p{font:14px/32px ""; #666666;}
+nav .nav-b-r {margin:60px 30px 0  0;}
+nav .nav-b-r span{display:block;font: 24px/40px ""; color:#10181f; width:208px; height:48px;}
+nav .nav-b-r input{display: block; width:208px; height:48px; border:1px solid #10181F; background: none;}
+.jz{width:400px; height:213px; position:fixed; margin: auto; left:0; right:0; top:0; bottom:0; background: blue;display:none;}
+.jz .jz-a{margin:6px 2px;}
+.jz .jz-c{margin:206px 2px; position:absolute; bottom:-200px; right: 2px;}
+.jz .hide{position:absolute; display: block; top:2px; right:2px; background: none; border: 0;}
+.jz ul{margin:37px 105px; width:180px; height:100px ; display: flex; justify-content: space-between;}
+
+footer{height:100px; background: red; box-shadow: ; z-index: 100;}
